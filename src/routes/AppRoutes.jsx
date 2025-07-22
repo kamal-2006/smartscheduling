@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Login } from "../pages/login/index";
-import Doctor from "../pages/main/doctor/doctor";
+import DoctorDashboard from "../pages/main/doctor/doctor";
 import Patient from "../pages/main/patient/patient";
 
 export const AppRoutes = () => {
@@ -9,7 +9,7 @@ export const AppRoutes = () => {
     <>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/doctor" element={<Doctor />} />
+        <Route path="/doctor" element={<DoctorDashboard />} />
         <Route path="/patient" element={<Patient />} />
 
         <Route path="*" element={<div> Not found</div>} />
