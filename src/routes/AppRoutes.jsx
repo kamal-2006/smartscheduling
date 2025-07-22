@@ -3,12 +3,12 @@ import { Route, Routes } from "react-router-dom";
 import { Login } from "../pages/login/index";
 import Doctor from "../pages/main/doctor/doctor";
 import Patient from "../pages/main/patient/patient";
-
+import Dashboard from "../pages/main/admindashboard/dashboard/view";
 export const AppRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/doctor" element={<Doctor />} />
         <Route path="/patient" element={<Patient />} />
 
