@@ -19,7 +19,7 @@ const Dashboard = () => {
   const [doctors, setDoctors] = useState([
     {
       id: 1,
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Prasanth",
       specialty: "Cardiology",
       email: "sarah.johnson@hospital.com",
       phone: "+1-234-567-8901",
@@ -29,7 +29,7 @@ const Dashboard = () => {
     },
     {
       id: 2,
-      name: "Dr. Michael Chen",
+      name: "Dr. Kamalesh",
       specialty: "Neurology",
       email: "michael.chen@hospital.com",
       phone: "+1-234-567-8902",
