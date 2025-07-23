@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Patient() {
   return (
-    <div>Patient</div>
+    <div className='bg-red-500'>
+      hellow doctors
+    </div>
   )
 }
