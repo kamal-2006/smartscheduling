@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global styles that are NOT handled by Tailwind */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Ensure this matches your tailwind.config.js */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f7f6; /* A light background for the whole app */
+  color: #333;
+}
